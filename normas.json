@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "nombre": "NOM-019-SCFI-1998",
+        "description": "equipos de datos"
+    },
+    {
+        "id": 2,
+        "nombre": "NOM-029-SCFI-1998",
+        "description": "equipos de datos"
+    },
+    {
+        "id": 3,
+        "nombre": "NOM-001-SCFI-2018",
+        "description": "equipos de datos"
+    }
+
+  ]

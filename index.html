@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fetch-json</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>FETCH</title>
+
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 40%;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="main">
-        <div class="cards">
-            <div class="card" id="normas">
-                <div class="card__tittle">
-                    <h4></h4>
+
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <h2>Listado de datos</h2>
+                <div class="my-3">
+                    <table class="table" id="lista-usuarios">
+                        <tbody>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="card__content">
-                    <img src="" alt="">
-                </div>                
             </div>
         </div>
     </div>
+
+    
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
